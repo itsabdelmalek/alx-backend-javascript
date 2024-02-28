@@ -1,7 +1,7 @@
 const chai = require('chai');
 const { expect } = chai;
 const { it, describe } = require('mocha');
-const calculateNumber = require('./1-calcul');
+const calculateNumber = require('./2-calcul_chai');
 
 describe('calculateNumber', () => {
   it('checking if sum operation is correct', () => {
