@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-const port = 7865;
+const PORT = 7865;
 
 app.listen(port, () => {
   console.log(`API available on http://localhost:${port}`);
@@ -34,8 +34,8 @@ app.post('/login', express.json(), (req, res) => {
   res.send(`Welcome ${userName}`);
 });
 
-app.listen(port, () => {
-  console.log(`API available on http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`API available on http://localhost:${PORT}`);
 });
 
 module.exports = app;
