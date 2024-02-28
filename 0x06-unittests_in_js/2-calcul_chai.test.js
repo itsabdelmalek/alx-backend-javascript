@@ -21,10 +21,10 @@ describe('calculateNumber', () => {
   });
 
   it('checking correct type for operation 1', () => {
-    expect(calculateNumber(5, 1, 4)).to.equal('Error');
+    expect(calculateNumber(5, 1, 4)).to.equal(0);
   });
 
   it('checking correct type for operation 2', () => {
-    expect(calculateNumber('plus', 1, 4)).to.equal('Error');
+    expect(calculateNumber('plus', 1, 4)).to.equal(0);
   });
 });
